@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fallout New Vegas</title>
+    <link rel="stylesheet" href="/css/gamepage.css">
+</head>
+<body data-game-id="1">
+    <header>
+        <img src="/img/gamefb1.png" alt="" id="img-home">
+
+        <div class="left-section">
+            <a href="/index.html" class="volver"><img src="/img/Home.png" class="home" alt=""></a>
+        </div>
+    </header>
+
+    <img class="cover" src="/img-covers/FNV.jpg" alt="">
+    <p id="puntuacion-general">Puntuacion</p>
+
+    <section>
+        <article>
+            <img src="/imggameplay/FNV/FNV1.jpg" alt="">
+            <img src="/imggameplay/FNV/FNV2.jpg" alt="">
+            <img src="/imggameplay/FNV/FNV3.jpg" alt="">
+            <img src="/imggameplay/FNV/FNV4.jpg" alt="">
+        </article>
+        
+        <div class="videos-container">
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/l-x-1fm2cq8" frameborder="0" allowfullscreen></iframe>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/nVhz3lnXYyc" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <p><strong>Informacion general sobre Fallout New Vegas</strong></p>
+        <p>
+            Fallout New Vegas es un videojuego de rol y acción desarrollado por Obsidian Entertainment y publicado por Bethesda Softworks. Fue lanzado el 19 de octubre de 2010 para PC, PlayStation 3 y Xbox 360. Aunque utiliza el mismo motor gráfico que Fallout 3, ofrece una experiencia de juego más profunda con mayor énfasis en la toma de decisiones y el desarrollo de la historia
+            La historia se ambienta en un mundo postapocalíptico en el año 2281, en la región de Mojave Wasteland, que incluye la ciudad de New Vegas, una versión reconstruida de Las Vegas tras la guerra nuclear. El jugador asume el papel de un mensajero que, tras ser dado por muerto, busca venganza y respuestas en medio de un conflicto entre la Nueva República de California (NCR), la Legión de César y el misterioso Sr. House
+            El juego introduce mecánicas de rol mejoradas con un sistema de reputación que afecta las relaciones con distintas facciones. También permite múltiples finales según las decisiones del jugador, dándole un alto grado de rejugabilidad. El combate se basa en disparos en primera y tercera persona, con la posibilidad de usar el sistema V.A.T.S. para realizar ataques estratégicos.
+            Fallout New Vegas es ampliamente reconocido como uno de los mejores títulos de la saga gracias a su narrativa ramificada, su mundo detallado y su libertad de elección. A pesar de su lanzamiento con algunos problemas técnicos, ha sido aclamado por su profunda historia y sus opciones de juego.
+        </p>
+
+        <div id="link-section">
+            <p><strong>Sitios para adquirir el titulo</strong></p>
+            <a href="https://store.steampowered.com/app/22380/Fallout_New_Vegas/"><strong>Steam</strong></a> <br>
+            <a href="https://store.epicgames.com/es-ES/p/fallout-new-vegas"><strong>Epic Games</strong></a>
+        </div>
+    </section>
+    
+    <div id="comment-section">
+        <h2>Comentarios</h2>
+        <form id="comment-form">
+            <textarea id="comment" placeholder="Escribe tu Comentario" required></textarea>
+
+            
+            <label for="rating">Puntuacion:</label>
+            <select id="rating" required>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="1">⭐</option>
+
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+    <script src="/backend/comments.js"></script>
+</body>
+</html>

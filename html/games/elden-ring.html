@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring</title>
+    <link rel="stylesheet" href="/css/gamepage.css">
+</head>
+<body data-game-id="9">
+    <header>
+        <img src="/img/gamefb1.png" alt="" id="img-home">
+
+        <div class="left-section">
+            <a href="/index.html" class="volver"><img src="/img/Home.png" class="home" alt=""></a>
+        </div>
+    </header>
+
+    <img class="cover" src="/img-covers/ER.jpg" alt="">
+    <p id="puntuacion-general">Puntuacion</p>
+
+    <section>
+        <article>
+            <img src="/imggameplay/ER/ER1.jpg" alt="">
+            <img src="/imggameplay/ER/ER2.jpg" alt="">
+            <img src="/imggameplay/ER/ER3.jpg" alt="">
+            <img src="/imggameplay/ER/ER4.jpg" alt="">
+        </article>
+        
+        <div class="videos-container">
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/AKXiKBnzpBQ" frameborder="0" allowfullscreen></iframe>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/K_03kFqWfqs" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <p><strong>Informacion general sobre Elden Ring</strong></p>
+        <p>
+            Elden ring es un videojuego de rol de acción desarrollado por FromSoftware y publicado por Bandai Namco Entertainment. Fue lanzado el 25 de febrero de 2022 para PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S y PC. El juego fue dirigido por Hidetaka Miyazaki, con la colaboración de George R. R. Martin en la construcción del mundo y la historia
+            La historia de Elden Ring se desarrolla en las Tierras Intermedias, un mundo vasto y oscuro gobernado por semidioses que han sido corrompidos por los fragmentos del Círculo de Elden. El jugador asume el papel de un Sinluz o Tiznado, un guerrero exiliado que regresa para reclamar el poder del Círculo y convertirse en el Señor del Elden
+            El juego combina mecánicas de exploración en mundo abierto con combates desafiantes y mecánicas de progresión típicas de los juegos de FromSoftware, como Dark Souls. Los jugadores pueden recorrer el mundo a pie o a caballo, descubrir mazmorras, luchar contra jefes poderosos y mejorar sus habilidades con un sistema de niveles basado en puntos de experiencia llamados runas
+            Elden Ring ha sido aclamado por la crítica y los jugadores por su jugabilidad, diseño del mundo y profundidad narrativa, convirtiéndose en uno de los juegos más exitosos de su género.
+        </p>
+
+        <div id="link-section">
+            <p><strong>Sitios para adquirir el titulo</strong></p>
+            <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/"><strong>Steam</strong></a> <br>
+            <a href="https://es.bandainamcoent.eu/elden-ring/elden-ring"><strong>Bandai Namco</strong></a>
+        </div>
+    </section>
+
+    <div id="comment-section">
+        <h2>Comentarios</h2>
+        <form id="comment-form">
+            <textarea id="comment" placeholder="Escribe tu Comentario" required></textarea>
+            
+            <label for="rating">Puntuacion:</label>
+            <select id="rating" required>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="1">⭐</option>
+
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+    <script src="/backend/comments.js"></script>
+</body>
+</html>

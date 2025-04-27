@@ -1,0 +1,158 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: rgba(5, 10, 57);
+    text-align: left;
+    margin: 0;
+    font-size: 30px;
+    padding: 1rem 1rem;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.home{
+    height: 130px;
+    width: 130px;
+}
+
+#img-home{
+    height: 60px;
+    width: 240px;
+}
+
+
+.cover {
+    margin-top: 1rem;
+    width: 70%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1200px;
+    margin: 1rem auto;
+}
+
+article{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+article img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.videos-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.videos-container iframe {
+    width: 500px;
+    height: 315px;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+section p{
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+    color: #333;
+}
+
+#link-section a{
+    text-decoration: none;
+    color: black;
+}
+
+#link-section a:hover{
+    text-decoration: underline;
+}
+
+#comment-section{
+    width: 100%;
+    max-width: 800px;
+    margin-left: 158px;
+    align-self: flex-start;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#comment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+#comment-form textarea{
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#comment-form button{
+    align-self: flex-end;
+    background-color: #364552;
+    color: aqua;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+#comment-form button:hover{
+    background-color: #2a3744;
+}
+
+.comments-container{
+    margin-top: 1rem;
+}
+
+.comment{
+    background-color: white;
+    padding: 0.75rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+    border-left: 4px solid #364552;
+}
+
+.comment strong {
+    color: #364552;
+}
+
+.message-container {
+    color: red;
+    font-weight: bold;
+    margin-top: 1rem;
+}

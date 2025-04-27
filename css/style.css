@@ -1,0 +1,268 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(5, 10, 57);
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.user-menu-container{
+    position: relative;
+    display: inline-block;
+}
+
+#user-menu{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 150x;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+}
+
+#user-menu p{
+    margin: 0;
+    font-weight: bold;
+    color: black;
+}
+
+#user-menu bottom{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#user-menu button:hover{
+    cursor: pointer;
+}
+
+#user-menu.hidden{
+    display: none;
+}
+
+#user-menu:not(.hidden){
+    display: block;
+}
+
+#user-icon{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#logout{
+    margin-top: 20px;
+    border: none;
+}
+
+
+#titulo {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+}
+
+#img-home{
+    margin: 20px;
+    height: 60px;
+    width: 240px;   
+}
+
+.user-name {
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: aqua;
+}
+
+
+#search-form{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    flex-grow: 1;
+    justify-content: center;
+    position: absolute;
+    left: 34%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+#search-bar {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.suggestions-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-left: 250px;
+    width: 50%; 
+    color: black;
+    background: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1000; /* Esta funcion sirve para que se ponga encima de otros elementos en la pagina como las imagenes */
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.suggestion-item:hover {
+    background: #f0f0f0;
+}
+
+.filter-container{
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin-top: 0;
+}
+
+#filter-button{
+    background-color: #0d6baa;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filter-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    z-index: 1000;
+}
+
+.filter-menu select{
+    width: 100%;
+    margin-top: 5px;
+}
+
+header .login, header .register {
+    background: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(245, 5, 217);
+    font-size: 20px;
+    margin-left: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main{
+    flex-grow: 1;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+article {
+    text-align: center;
+    width: 250px;
+}
+
+article img{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    background-color: #222;
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 2rem;
+    color: aqua;
+    font-size: 20px
+}
+
+footer section {
+    float: right;
+}
+
+footer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reg-style.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="main">
+        <h2>Registration</h2>
+        <p>Enter your account information</p>
+        <form action="" id="registerform">
+            <label for="first">Username</label>
+            <input type="text" name="first" id="first" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" pattern="^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9]).{8,}$"
+            title="Password must contain at least one number, one letter, one symbol and be at least 8 characters long" required>
+
+            <label for="repassword">Re-type password</label>
+            <input type="password" name="repassword" id="repassword" required>
+
+            <button type="submit">submit</button>
+        </form>
+
+        <p id="message"></p>
+    </div>
+    
+
+    <script src="/backend/register.js"></script>
+</body>
+</html>

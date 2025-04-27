@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Souls</title>
+    <link rel="stylesheet" href="/css/gamepage.css">
+</head>
+<body data-game-id="7">
+    <header>
+        <img src="/img/gamefb1.png" alt="" id="img-home">
+
+        <div class="left-section">
+            <a href="/index.html" class="volver"><img src="/img/Home.png" class="home" alt=""></a>
+        </div>
+    </header>
+
+    <img class="cover" src="/img-covers/DS.jpg" alt="">
+    <p id="puntuacion-general">Puntuacion</p>
+
+    <section>
+        <article>
+            <img src="/imggameplay/DS/DS1.jpg" alt="">
+            <img src="/imggameplay/DS/DS2.jpg" alt="">
+            <img src="/imggameplay/DS/DS3.jpg" alt="">
+            <img src="/imggameplay/DS/DS4.jpg" alt="">
+        </article>
+        
+        <div class="videos-container">
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/Woe0PYZPxRw" frameborder="0" allowfullscreen></iframe>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/1yVOMHz9luo" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <p><strong>Informacion general sobre Dark Souls Remastered</strong></p>
+        <p>
+            Dark Souls Remastered es la versión mejorada del icónico juego de rol de acción desarrollado por FromSoftware. Sumérgete en el mundo de Lordran, un reino oscuro y desolado lleno de peligros y desafíos formidables.
+            Con gráficos remasterizados, que ofrecen una resolución de hasta 4K y 60 fps, y una jugabilidad mejorada, los jugadores enfrentan a enemigos implacables, explorando misteriosos entornos y desentrañando la compleja narrativa del juego.
+            Esta remasterización también incluye el contenido descargable "Artorias of the Abyss", ofreciendo una experiencia completa del juego 
+        </p>
+
+        <div id="link-section">
+            <p><strong>Sitios para adquirir el titulo</strong></p>
+            <a href="https://store.steampowered.com/app/570940/DARK_SOULS_REMASTERED/"><strong>Steam</strong></a> <br>
+            <a href="https://www.bandainamcoent.com/games/dark-souls-remastered"><strong>Bandai Namco</strong></a>
+            
+        </div>
+    </section>
+
+    <div id="comment-section">
+        <h2>Comentarios</h2>
+        <form id="comment-form">
+            <textarea id="comment" placeholder="Escribe tu Comentario" required></textarea>
+
+            
+            <label for="rating">Puntuacion:</label>
+            <select id="rating" required>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="1">⭐</option>
+
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+    <script src="/backend/comments.js"></script>
+</body>
+</html>

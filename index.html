@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameFeedBack</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        
+        <img src="/img/gamefb1.png" alt="" id="img-home">
+        <p class="user-name" id="user-name"></p>
+        
+        
+        <form id="search-form" action="#" method="get">
+            <input type="text" id="search-bar" name="search" placeholder="Buscar juego">
+
+            <div class="filter-container">
+                <button id="filter-button">Filtros</button>
+                <div id="filter-menu" class="filter-menu">
+                    <p>Filtrar por</p>
+                    <div>
+                        <strong>Genero</strong>
+                        <select id="genre-filter">
+                            <option value="">Todos</option>
+                        </select>
+                    </div>
+                    <div>
+                        <strong>Fecha</strong>
+                        <select id="date-filter">
+                            <option value="">Todas</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+        </form>
+    
+        <div class="right-section">
+            <a href="login.html" class="login">Login</a>
+            <a href="register.html" class="register">Register</a>
+        </div>
+
+    </header>
+
+    <main>
+        <section>
+            <article data-genre="RPG" data-date="2010">
+                <a href="/html/games/FNV.html"><img src="/img/FNV.jpg" width="250" height="250" alt=""> </a>
+                <p>Fallout New Vegas</p>
+            </article>
+    
+            <article data-genre="Metroidvania" data-date="2017">
+                <a href="/html/games/hollow-night.html"><img src="/img/HN.jpeg" width="250" height="250" alt=""></a>
+                <p>Hollow Knight</p>
+            </article>
+    
+            <article data-genre="MOBA" data-date="2009">
+                <a href="/html/games/lol.html"><img src="/img/LOL.jpg" width="250" height="250" alt=""></a>
+                    <p>League Of Legends</p>
+            </article>
+    
+            <article data-genre="Aventura" data-date="2018">
+                <a href="/html/games/rdr2.html"><img src="/img/RDR2.jpg" width="250" height="250" alt=""></a>
+                <p>Red Dead Redemption 2</p>
+            </article>
+    
+            <article data-genre="FPS" data-date="2007">
+                <a href="/html/games/tf2.html"><img src="/img/TF2.png" width="250" height="250" alt=""></a>
+                <p>Team Fortress 2</p>
+            </article>
+    
+            <article data-genre="Accion" data-date="2010">
+                <a href="/html/games/wfc.html"><img src="/img/WFC.jpg" width="250" height="250" alt=""></a>
+                <p>War For Cybertron</p>
+            </article>
+    
+            <article data-genre="RPG" data-date="2018">
+                <a href="/html/games/dark-souls.html"><img src="/img/DSR.jpg" width="250" height="250" alt=""></a>
+                <p>Dark Souls</p>
+            </article>
+    
+            <article data-genre="FPS" data-date="2020">
+                <a href="/html/games/valorant.html"><img src="/img/Valorant.jpg" width="250" height="250" alt=""></a>
+                <p>Valorant</p>
+            </article>
+    
+            <article data-genre="RPG" data-date="2022">
+                <a href="/html/games/elden-ring.html"><img src="/img/EldenRIng.jpg" width="250" height="250" alt=""></a>
+                <p>Elden Ring</p>
+            </article>
+    
+            <article data-genre="Accion" data-date="2014">
+                <a href="/html/games/watch-dogs.html"><img src="/img/WD.jpg" width="250" height="250" alt=""></a>
+                <p>Watch Dogs</p>
+            </article>
+    
+        </section>
+        
+    </main>
+
+    <script src="/backend/filter.js"></script>
+    <script src="/backend/search.js"></script>
+    <script src="/backend/index.js"></script>
+</body>
+
+<footer>
+    <section>
+        <a href="#img-home">Ir al principio</a><br>
+        <a href="mailto:johnmichaelab6@gmail.com">Contactame</a>
+    </section>
+</footer>
+
+</html>

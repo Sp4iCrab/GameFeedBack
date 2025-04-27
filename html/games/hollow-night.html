@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight</title>
+    <link rel="stylesheet" href="/css/gamepage.css">
+</head>
+<body data-game-id="2">
+    <header>
+        <img src="/img/gamefb1.png" alt="" id="img-home">
+
+        <div class="left-section">
+            <a href="/index.html" class="volver"><img src="/img/Home.png" class="home" alt=""></a>
+        </div>
+    </header>
+
+    <img class="cover" src="/img-covers/HN.jpeg" alt="">
+    <p id="puntuacion-general">Puntuacion</p>
+
+    <section>
+        <article>
+            <img src="/imggameplay/HK/HKG1.jpg" alt="">
+            <img src="/imggameplay/HK/HKG2.jpg" alt="">
+            <img src="/imggameplay/HK/HKG3.jpg" alt="">
+            <img src="/imggameplay/HK/HKG4.jpg" alt="">
+        </article>
+        
+        <div class="videos-container">
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/UAO2urG23S4" frameborder="0" allowfullscreen></iframe>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/nSPJXlYjENE" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <p><strong>Informacion general sobre Hollow Knight</strong></p>
+        <p>
+            Hollow Knight es un juego de acción y aventuras desarrollado por Team Cherry. Ambientado en el misterioso y decadente reino de Hallownest
+            el jugador asume el papel de un pequeño caballero insecto que explora cavernas laberínticas, enfrenta a temibles enemigos y descubre secretos ocultos. 
+            Con un estilo artístico encantador y una banda sonora atmosférica, Hollow Knight ofrece una experiencia envolvente que combina combate desafiante y exploración en un vasto mundo 
+        </p>
+
+        <div id="link-section">
+            <p><strong>Sitios para adquirir el titulo</strong></p>
+            <a href="https://store.steampowered.com/app/367520/Hollow_Knight/"><strong>Steam</strong></a>
+        </div>
+    </section>
+
+    <div id="comment-section">
+        <h2>Comentarios</h2>
+        <form id="comment-form">
+            <textarea id="comment" placeholder="Escribe tu Comentario" required></textarea>
+
+            <label for="rating">Puntuacion:</label>
+            <select id="rating" required>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="1">⭐</option>
+
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+    <script src="/backend/comments.js"></script>
+</body>
+</html>

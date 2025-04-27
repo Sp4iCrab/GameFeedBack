@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Fortress 2</title>
+    <link rel="stylesheet" href="/css/gamepage.css">
+</head>
+<body data-game-id="5">
+    <header>
+        <img src="/img/gamefb1.png" alt="" id="img-home">
+
+        <div class="left-section">
+            <a href="/index.html" class="volver"><img src="/img/Home.png" class="home" alt=""></a>
+        </div>
+    </header>
+
+    <img class="cover" src="/img-covers/TF2.png" alt="">
+    <p id="puntuacion-general">Puntuacion</p>
+
+    <section>
+        <article>
+            <img src="/imggameplay/TF2/TF21.jpg" alt="">
+            <img src="/imggameplay/TF2/TF22.jpg" alt="">
+            <img src="/imggameplay/TF2/TF23.jpg" alt="">
+            <img src="/imggameplay/TF2/TF24.jpg" alt="">
+        </article>
+        
+        <div class="videos-container">
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/N7ZafWA2jd8" frameborder="0" allowfullscreen></iframe>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/MwwcWTTw4PU" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <p><strong>Informacion general sobre Team Fortress 2</strong></p>
+        <p>
+            TF2 es un videojuego multijugador de disparos en primera persona desarrollado y publicado por Valve. Fue lanzado el 10 de octubre de 2007 como parte de The Orange Box para PC, Xbox 360 y PlayStation 3, y más tarde se convirtió en un juego gratuito en Steam en 2011
+            El juego se centra en combates por equipos, enfrentando a dos facciones: RED y BLU. Los jugadores pueden elegir entre nueve clases de personajes, cada una con habilidades y estilos de juego únicos, divididos en tres categorías: ofensiva, defensiva y apoyo.
+            TF2 cuenta con una variedad de modos de juego, incluyendo Captura la Bandera, Control de Puntos, Carga Explosiva y Rey de la Colina. Su estilo visual caricaturesco y su énfasis en el trabajo en equipo han sido clave para su éxito
+            El juego ha evolucionado con actualizaciones constantes que han añadido nuevos mapas, armas, cosméticos y eventos temáticos. Además, la comunidad ha contribuido con contenido a través de Steam Workshop, manteniendo vivo el interés en el juego por más de una década.
+            Team Fortress 2 sigue siendo uno de los shooters más populares en Steam y un referente en el género de los juegos de disparos en equipo
+        </p>
+
+        <div id="link-section">
+            <p><strong>Sitios para adquirir el titulo</strong></p>
+            <a href="https://store.steampowered.com/app/440/Team_Fortress_2/"><strong>Steam</strong></a>
+        </div>
+    </section>
+
+    <div id="comment-section">
+        <h2>Comentarios</h2>
+        <form id="comment-form">
+            <textarea id="comment" placeholder="Escribe tu Comentario" required></textarea>
+            
+            <label for="rating">Puntuacion:</label>
+            <select id="rating" required>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="1">⭐</option>
+
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+    <script src="/backend/comments.js"></script>
+</body>
+</html>

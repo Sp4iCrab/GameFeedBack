@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fallout New Vegas</title>
+    <link rel="stylesheet" href="/css/gamepage.css">
+</head>
+<body data-game-id="3">
+    <header>
+        <img src="/img/gamefb1.png" alt="" id="img-home">
+
+        <div class="left-section">
+            <a href="/index.html" class="volver"><img src="/img/Home.png" class="home" alt=""></a>
+        </div>
+    </header>
+
+    <img class="cover" src="/img-covers/LOL.jpg" alt="">
+    <p id="puntuacion-general">Puntuacion</p>
+
+    <section>
+        <article>
+            <img src="/imggameplay/LOL/lol1.jpg" alt="">
+            <img src="/imggameplay/LOL/lol2.jpg" alt="">
+            <img src="/imggameplay/LOL/lol3.jpg" alt="">
+            <img src="/imggameplay/LOL/lol4.jpg" alt="">
+        </article>
+        
+        <div class="videos-container">
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/ZHhqwBwmRkI" frameborder="0" allowfullscreen></iframe>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/I76wvt0aEE4" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <p><strong>Informacion general sobre League of Legends</strong></p>
+        <p>
+        League of legnds (LOL) es un videojuego multijugador de batalla en línea (MOBA) desarrollado y publicado por Riot Games. Fue lanzado el 27 de octubre de 2009 para PC y ha crecido hasta convertirse en uno de los juegos más populares y competitivos del mundo.
+        En League of Legends, dos equipos de cinco jugadores se enfrentan en un mapa llamado La Grieta del Invocador, con el objetivo de destruir el nexo enemigo. Cada jugador controla un campeón con habilidades únicas y puede mejorar su personaje a lo largo de la partida ganando oro y experiencia.
+        El juego ofrece una gran variedad de campeones y estrategias, fomentando la cooperación en equipo y la toma de decisiones en tiempo real. Además, cuenta con un ecosistema de esports altamente desarrollado, con torneos como el Campeonato Mundial, donde equipos de todo el mundo compiten por prestigio y grandes premios.
+        Gracias a sus constantes actualizaciones, eventos y una comunidad global activa, League of Legends sigue siendo uno de los juegos más influyentes en la industria del gaming competitivo.
+        </p>
+
+        <div id="link-section">
+            <p><strong>Sitios para adquirir el titulo</strong></p>
+            <a href="https://www.leagueoflegends.com/es-es/"><strong>Riot Games</strong></a> <br>
+        </div>
+    </section>
+
+    <div id="comment-section">
+        <h2>Comentarios</h2>
+        <form id="comment-form">
+            <textarea id="comment" placeholder="Escribe tu Comentario" required></textarea>
+
+            
+            <label for="rating">Puntuacion:</label>
+            <select id="rating" required>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="1">⭐</option>
+
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+    <script src="/backend/comments.js"></script>
+</body>
+</html>

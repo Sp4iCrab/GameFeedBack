@@ -1,0 +1,18 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"game_feedback"},
+{"type":"table","name":"juegos","database":"game_feedback","data":
+[
+{"id":"1","titulo":"Fallout New Vegas","fecha_lanzamiento":"2010-10-19","desarrollador":"Obsidian Entertaiment","genero":"RPG"},
+{"id":"2","titulo":"Hollow Knight","fecha_lanzamiento":"2017-02-24","desarrollador":"Team Cherry","genero":"Metroidvania"},
+{"id":"3","titulo":"League of Legends","fecha_lanzamiento":"2009-10-27","desarrollador":"Riot Games","genero":"MOBA"},
+{"id":"4","titulo":"Red Dead Redemption 2","fecha_lanzamiento":"2018-10-26","desarrollador":"Rockstar Games","genero":"Aventura"},
+{"id":"5","titulo":"Team Fortress 2","fecha_lanzamiento":"2007-10-10","desarrollador":"Valve","genero":"FPS"},
+{"id":"6","titulo":"Transformers War For Cybetron","fecha_lanzamiento":"2010-06-22","desarrollador":"High Moon Studios","genero":"Accion"},
+{"id":"7","titulo":"Dark Souls Remastered","fecha_lanzamiento":"2018-05-25","desarrollador":"FromSoftware","genero":"RPG"},
+{"id":"8","titulo":"Valorant","fecha_lanzamiento":"2020-06-02","desarrollador":"Riot Games","genero":"FPS"},
+{"id":"9","titulo":"Elden Ring","fecha_lanzamiento":"2022-02-25","desarrollador":"FromSoftware","genero":"RPG"},
+{"id":"10","titulo":"Watch Dogs","fecha_lanzamiento":"2014-05-27","desarrollador":"Ubisoft","genero":"Accion"}
+]
+}
+]
